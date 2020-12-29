@@ -101,3 +101,27 @@ a:hover{
     font-size: 17px ;
 
 }
+
+.page3{
+    background-color: rgb(211, 199, 199);
+     height: 800px;
+     margin: 50px 0 ;
+     
+ }
+ .zzz{
+     margin: 50px 0;
+     padding: 15px 50px;
+     float: left;
+     width: 50%;
+ }
+ .aaa{
+     margin: 50px 0;
+     padding: 15px 50px;
+     float: left;
+     width: 50%;
+ }
+ .zzz p{
+     font: normal 400 17px/32px "Alegreya Sans";
+     color: #686868;
+     margin: 15px 0 ;
+ }
