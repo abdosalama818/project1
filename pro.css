@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+.home{
+    height: 700px;
+   background-image: url(imgs/1.jpg);
+   background-size: 100% 100%;
+}
+.nav{
+    height: 70px;
+    background-color:rgba(0, 0, 0, .2);
+    position: sticky;
+    top:1px;
+
+}
+.nan ul{
+    overflow: hidden;
+    padding: 30px;
+    list-style-type: none;
+    margin: 0px;
+    
+}
+.nav li{float: right;}
+.nav a{
+    padding: 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: slategray;
+}
+.caption{
+    height: 700px;
+    
+    text-align: center;
+    margin: 80px auto 0;
+    line-height: 3em;
+    color: #ffffff;
+}
+.nav h1{
+    font-size: 76px;
+    font-weight: 400;
+   
+}
+.nav p{
+    padding: 15px;
+}
+
+.page{
+    background-color:transparent;
+    height: 700px;
+    margin: 56px;
+    padding: 20px;
+}
+.info{
+    width: 50%;
+    float: left;
+    color:#303030 ;
+    font:normal 400 26px/35px "Alegreya Sans";
+    
+    margin: 20px 0px ;
+    padding: 15px;
+
+
+}
+.photo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+.photo img{
+    width: 95%; 
+    height: 600px;
+}
+.info ul{
+    list-style-type:none;
+}
+.info ul li{
+    margin: 15px 0 ;
+}
+.info h2{
+    padding: 15px;
+    margin: 20px 0 ;
+    font-family: sofia;
+    font-size: 32px;
+    color: #303030
+            ;
+}
+.info p{
+    padding: 15px;
+    margin: 20px 0 ; 
+    line-height: 32px;
+    font-size: 17px ;
+
+}
