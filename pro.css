@@ -23,7 +23,7 @@
     padding: 30px;
     list-style-type: none;
     margin: 0px;
-    
+
 }
 .nav li{float: right;}
 .nav a{
@@ -38,7 +38,7 @@ a:hover{
 }
 .caption{
     height: 700px;
-    
+
     text-align: center;
     margin: 80px auto 0;
     line-height: 3em;
@@ -47,7 +47,7 @@ a:hover{
 .nav h1{
     font-size: 76px;
     font-weight: 400;
-   
+
 }
 .nav p{
     padding: 15px;
@@ -64,7 +64,7 @@ a:hover{
     float: left;
     color:#303030 ;
     font:normal 400 26px/35px "Alegreya Sans";
-    
+
     margin: 20px 0px ;
     padding: 15px;
 
@@ -74,10 +74,10 @@ a:hover{
     width: 50%;
     float: left;
     text-align: center;
-    
+
 }
 .photo img{
-    width: 95%; 
+    width: 95%;
     height: 600px;
 }
 .info ul{
@@ -96,7 +96,7 @@ a:hover{
 }
 .info p{
     padding: 15px;
-    margin: 20px 0 ; 
+    margin: 20px 0 ;
     line-height: 32px;
     font-size: 17px ;
 
@@ -106,7 +106,7 @@ a:hover{
     background-color: rgb(211, 199, 199);
      height: 800px;
      margin: 50px 0 ;
-     
+
  }
  .zzz{
      margin: 50px 0;
@@ -124,4 +124,71 @@ a:hover{
      font: normal 400 17px/32px "Alegreya Sans";
      color: #686868;
      margin: 15px 0 ;
+ }
+ .div6 {
+ 	overflow: hidden;
+ 	background-color: #403d38;
+ 	color: white;
+ 	padding: 40px;
+
+
+ }
+
+ .div6 h3{
+ 	font-size: 18px;
+ 	padding: 15px;
+ 	margin-bottom: 12px;
+ }
+
+ .div6 p{
+ 	margin-left: 15px;
+ 	color: #969696;
+ }
+
+ .div6 ul li{
+ 	display: block;
+ 	padding: 10px;
+ 	margin: 5px;
+ 	color: #969696;
+ 	border-bottom: 1px solid rgba(255,255,255,0.05);
+
+ }
+
+ .div6 ul li::before{
+   	content: "\203A ";
+ 	color: rgb(150, 150, 150);
+
+ }
+
+ .div6 .about{
+ 	width: 22%;
+ 	float: left;
+ 	margin-left: 15px;
+ 	margin-right: 5px;
+
+
+ }
+
+ .div6 .special{
+ 	width: 22%;
+ 	float: left;
+ 	margin: 0 5px 0 10px;
+ }
+
+ .div6 .hours{
+ 	width: 22%;
+ 	float: left;
+ 	margin: 0 5px 0 10px;
+ }
+
+ .div6 .contact{
+ 	background-image: url(images/map3.jpg);
+ 	background-size: 100% 100%;
+ 	background-color: #403d38;
+ 	width: 23%;
+ 	float: left;
+ 	margin: 0 5px 0 10px;
+ 	opacity: 0.8;
+ 	font-weight: bolder;
+
  }
